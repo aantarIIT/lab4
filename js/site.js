@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (isValid) {
       // Simulate form submission
-      alert('Thank you for signing up! We\'ll be in touch soon.');
+      window.location.href = 'signedup.html';
       form.reset();
     } else {
       alert(errorMessage);
