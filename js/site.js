@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-
   const form = document.getElementById('tester-signup');
   const nameInput = document.getElementById('name');
   const emailInput = document.getElementById('email');
@@ -24,14 +23,13 @@ document.addEventListener('DOMContentLoaded', function() {
       errorMessage += 'Please enter a valid email address. ';
     }
 
-    if (occupationInput.value === '') {
+    if (experienceInput.value === '') {
       isValid = false;
       errorMessage += 'Please select an experience level. ';
     }
 
     if (isValid) {
       window.location.href = 'signedup.html';
-      form.reset();
     } else {
       alert(errorMessage);
     }
