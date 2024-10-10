@@ -1,9 +1,10 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #e0e0e0;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: #1a1a2e;
+  background-size: 50px 50px;
 }
 
 header {
@@ -13,17 +14,21 @@ header {
 
 h1 {
   font-size: 2rem;
-  color: #2c3e50;
+  color: #00ff9d;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(0, 255, 157, 0.7);
 }
 
 h2 {
   font-size: 1.5rem;
   margin-bottom: 15px;
-  color: #34495e;
+  color: #4cc9f0;
 }
 
 #intro {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .form-group {
@@ -34,29 +39,47 @@ label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
+  color: #4cc9f0;
 }
 
-input, select {
+input, select, textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #4cc9f0;
   border-radius: 4px;
+  background-color: rgba(26, 26, 46, 0.8);
+  color: #e0e0e0;
+}
+
+textarea {
+  resize: vertical;
 }
 
 button {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #3498db;
-  color: white;
+  background-color: #00ff9d;
+  color: #1a1a2e;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #4cc9f0;
+  box-shadow: 0 0 15px rgba(76, 201, 240, 0.7);
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #4cc9f0;
 }
 
 @media screen and (min-width: 600px) {
@@ -75,6 +98,10 @@ button:hover {
   #signup-form {
     max-width: 500px;
     margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(26, 26, 46, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(76, 201, 240, 0.3);
   }
 }
 
@@ -87,6 +114,8 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   #intro, #signup-form {
