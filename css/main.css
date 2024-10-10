@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   color: #4cc9f0;
-  padding: 60px 20px 20px;
+  padding: 80px 20px 20px;
   background-color: #1a1a2e;
   display: flex;
   flex-direction: column;
@@ -16,15 +16,16 @@ header {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #4cc9f0;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 2rem;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: #4cc9f0;
 }
 
@@ -49,7 +50,7 @@ label {
 }
 
 input, select, textarea {
-  width: 90%;
+  width: 100%;
   padding: 10px;
   border: 1px solid #4cc9f0;
   border-radius: 4px;
@@ -59,7 +60,7 @@ input, select, textarea {
 
 button {
   display: block;
-  width: 90%;
+  width: 100%;
   padding: 10px;
   background-color: #4cc9f0;
   color: #1a1a2e;
@@ -79,7 +80,7 @@ button:hover {
 
 #signup-form {
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   margin: 0 auto;
   padding: 20px;
   background-color: rgba(26, 26, 46, 0.6);
@@ -89,15 +90,16 @@ button:hover {
 
 #signup-form h2 {
   margin-bottom: 20px;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 600px) {
   body {
-    padding-top: 80px;
+    padding-top: 100px;
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   h2 {
@@ -111,11 +113,11 @@ button:hover {
 
 @media screen and (min-width: 1024px) {
   body {
-    padding-top: 100px;
+    padding-top: 120px;
   }
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
   h2 {
