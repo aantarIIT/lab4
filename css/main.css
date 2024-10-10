@@ -106,34 +106,10 @@ button:hover {
   body {
     padding-top: 60px;
   }
-
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 2.2rem;
-  }
-
-  #intro p {
-    font-size: 1.4rem;
-  }
 }
 
 @media screen and (min-width: 1024px) {
   body {
     padding-top: 80px;
-  }
-
-  h1 {
-    font-size: 3.5rem;
-  }
-
-  h2 {
-    font-size: 2.5rem;
-  }
-
-  #intro p {
-    font-size: 1.6rem;
   }
 }
