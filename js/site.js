@@ -29,7 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     if (isValid) {
-      window.location.href = 'signedup.html';
+      form.action = 'signedup.html';
+      form.method = 'get';
+      form.submit();
     } else {
       alert(errorMessage);
     }
