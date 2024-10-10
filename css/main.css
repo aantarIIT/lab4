@@ -24,14 +24,6 @@ h1 {
   margin: 0 0 20px 0;
 }
 
-h1 + h2 {
-  font-size: 1.6rem;
-}
-
-h2 + p {
-  font-size: 1.8rem;
-}
-
 h2 {
   margin: 0 0 10px 0;
   color: #4cc9f0;
@@ -40,10 +32,6 @@ h2 {
 #intro {
   margin-bottom: 30px;
   text-align: center;
-}
-
-#intro p {
-  margin: 0;
 }
 
 .form-group {
