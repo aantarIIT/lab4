@@ -12,11 +12,12 @@ body {
 
 header {
   text-align: center;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   color: #4cc9f0;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -24,7 +25,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1rem;
   margin-bottom: 10px;
   color: #4cc9f0;
 }
@@ -32,10 +33,6 @@ h2 {
 #intro {
   margin-bottom: 30px;
   text-align: center;
-}
-
-#intro p {
-  font-size: 1.2rem;
 }
 
 .form-group {
