@@ -1,12 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Change nojs class to hasjs
-  document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/, 'hasjs');
 
-  // Form validation and submission
-  const form = document.getElementById('beta-signup');
+  const form = document.getElementById('tester-signup');
   const nameInput = document.getElementById('name');
   const emailInput = document.getElementById('email');
-  const occupationInput = document.getElementById('occupation');
+  const experienceInput = document.getElementById('experience');
 
   form.addEventListener('submit', function(event) {
     event.preventDefault();
@@ -29,11 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (occupationInput.value === '') {
       isValid = false;
-      errorMessage += 'Please select an occupation. ';
+      errorMessage += 'Please select an experience level. ';
     }
 
     if (isValid) {
-      // Simulate form submission
       window.location.href = 'signedup.html';
       form.reset();
     } else {
